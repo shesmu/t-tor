@@ -6,8 +6,7 @@ var express	 = require('express'),
 	open     = require("open"),
 	inquirer = require('inquirer'),
 	program  = require('commander'),
-	https 	 = require('https'),
-	colors	 = require('colors');
+	https 	 = require('https');
 
 var hydra    = ['https://thepiratebay.se/',
 				'https://thepiratebay.la/',
