@@ -1,6 +1,6 @@
 {
   "name": "t-tor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preferGlobal": "true",
   "bin": {
     "t-tor": "t-tor.js"
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github.com/shesmu/t-tor"
+    "url": "git://github.com/shesmu/t-tor"
   },
   "license": "MIT",
   "dependencies": {
