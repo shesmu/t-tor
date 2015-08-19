@@ -87,9 +87,10 @@ function torList (url) {
 						title[i]  = data.eq(1).children().first().text().replace(/ /g, '');
 						date[i]   = data.eq(1).children().last().text().replace(/ /g, '');
 						type[i]   = data.eq(0).text().replace(/ /g, '');
-						options[i] = title[i] + ' ' + type[i] + ' le:'.red + leech[i].red + ' se:'.red + seeds[i].red + ' ' + date[i];
+						options[i] = title[i] + ' ' + type[i] + ' le:' + leech[i] + ' se:' + seeds[i] + ' ' + date[i];
 				})
 			}
+			console.log(url);
 			genList (options, magnet);
 		}
 	})

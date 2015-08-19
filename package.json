@@ -1,6 +1,6 @@
 {
   "name": "t-tor",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "preferGlobal": "true",
   "bin": {
     "t-tor": "t-tor.js"
