@@ -9,9 +9,12 @@ t-tor [options] [search]
 
 # Options
 leave options and search clear to list most popular torrents
--a Audio 
+-a Audio
+ 
 -v Video
+
 -A Applications
+
 -g Games
 -p Porn
 -o Other
