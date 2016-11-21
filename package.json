@@ -1,18 +1,33 @@
 {
   "name"            : "t-tor",
-  "version"         : "0.0.1",
+  "version"         : "0.0.6",
   "preferGlobal"    : "true",
   "bin": {"t-tor": "t-tor.js"},
-  "description"     : "Torrent shows in terminal",
+  "description"     : "Search torrents in terminal",
   "main"            : "t-tor",
   "author"          : "shesmu",
+  "keywords"        : [
+    "torrent",
+    "client",
+    "pirate bay",
+    "download",
+    "tv shows",
+    "movies"
+  ],
+  
+  "repository"      : {
+    "type"	    : "git",
+    "url"	    : "github.com/shesmu/t-tor"
+  },
+  "license" 	    : "MIT", 
   "dependencies"    : {
     "express"       : "latest",
     "request"       : "latest",
     "cheerio"       : "latest",
-    "inquirer"	    : "latest",
+    "inquirer"	    : "0.12.0",
     "open"          : "latest",
     "commander"     : "latest",
-    "https"         : "latest"
+    "https"         : "latest",
+    "colors"        : "latest"
   }
 }
