@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name"            : "t-tor",
   "version"         : "0.0.6",
   "preferGlobal"    : "true",
@@ -7,6 +8,18 @@
   "main"            : "t-tor",
   "author"          : "shesmu",
   "keywords"        : [
+=======
+  "name": "t-tor",
+  "version": "0.0.4",
+  "preferGlobal": "true",
+  "bin": {
+    "t-tor": "t-tor.js"
+  },
+  "description": "Search torrents in terminal",
+  "main": "t-tor",
+  "author": "shesmu",
+  "keywords": [
+>>>>>>> 86de9a24c22a409a11ce2d13bbb2d2affd2140ac
     "torrent",
     "client",
     "pirate bay",
@@ -14,6 +27,7 @@
     "tv shows",
     "movies"
   ],
+<<<<<<< HEAD
   
   "repository"      : {
     "type"	    : "git",
@@ -29,5 +43,24 @@
     "commander"     : "latest",
     "https"         : "latest",
     "colors"        : "latest"
+=======
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shesmu/t-tor"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest",
+    "inquirer": "latest",
+    "open": "latest",
+    "commander": "latest",
+    "https": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 86de9a24c22a409a11ce2d13bbb2d2affd2140ac
   }
 }
